@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CMS with Three.js</title>
+    <script src="https://threejs.org/build/three.js"></script>
+  <script defer src="bundle.js"></script><link href="./styles.css" rel="stylesheet"></head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <aside class="sidebar">
+        <h2>Elements</h2>
+        <ul>
+          <li><a href="#">Element 1</a></li>
+          <li><a href="#">Element 2</a></li>
+          <li><a href="#">Element 3</a></li>
+          <li><a href="#">Element 4</a></li>
+        </ul>
+        <div id="colorInputContainer">
+          <label for="colorInput">Model Color:</label>
+          <input type="color" id="colorInput" value="#ff0000" />
+        </div>
+
+        <div id="lightIntensitySliderContainer">
+          <label for="lightIntensitySlider">Light Intensity:</label>
+          <input type="range" id="lightIntensitySlider" min="0" max="1" step="0.1" value="0.5" />
+        </div>
+
+        <button id="modelMoveButton">Move Model</button>
+      </aside>
+
+      <main>
+        <h1>CMS with Three.js</h1>
+        <div id="canvas"></div>
+      </main>
+    </div>
+  </body>
+  
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Panel</title>
+    <script src="https://threejs.org/build/three.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Admin Panel</h1>
+      <button id="toggleMenu">Toggle Menu</button>
+    </header>
+    <aside id="sidebar">
+      <ul>
+        <li><a href="#">Dashboard</a></li>
+        <li><a href="#">Users</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
+    </aside>
+    <main>
+      <section>
+        <h2>Dashboard</h2>
+        <p>Welcome to the admin panel!</p>
+        <div id="canvas"></div>
+      </section>
+    </main>
+    <script>
+     
+    </script>
+  </body>
+</html>
+ -->
